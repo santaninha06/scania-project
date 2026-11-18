@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "ScanIA",
+    "slug": "scania",
+    "scheme": "scania",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "O ScanIA usa a câmera para fotografar suas notas fiscais.",
+          "photosPermission": "O ScanIA acessa suas fotos para ler notas fiscais salvas na galeria."
+        }
+      ],
+      "expo-status-bar"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gabrielsantana.scania"
+    },
+    "android": {
+      "package": "com.gabrielsantana.scania",
+      "predictiveBackGestureEnabled": false
+    }
+  }
+}
